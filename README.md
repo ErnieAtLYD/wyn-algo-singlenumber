@@ -1,27 +1,42 @@
-# Algorithm Cardio: Contain Duplicates
+# Algorithm Cardio: Single Number
 
-Given an array of integers, find if the array contains any duplicates.
-
-Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
 Example 1:
+
 ```
-Input: [1,2,3,1]
-Output: true
+Input: [2,2,1]
+Output: 1
 ```
+
 Example 2:
+
 ```
-Input: [1,2,3,4]
-Output: false
+Input: [4,1,2,1,2]
+Output: 4
 ```
+
 Example 3:
+
 ```
-Input: [1,1,1,3,3,4,3,2,4,2]
-Output: true
+Input: [1,3,5,7,10,1,3,5,7]
+Output: 10
 ```
 
 ### Hints
-I can think of at least two ways to solve this problem. One way using concepts you already know, but could take a longer time to run. Remind me to go over both ways in class. :)
 
+This is a variation on yesterdays morning exercise. Get it working first. Once you have that, can you get it so there's a linear runtime complexity? Could you implement it without using extra memory?
 
-https://leetcode.com/problems/contains-duplicate/
+https://leetcode.com/problems/single-number/
+
+---
+
+### Running this locally (aka not on glitch)
+
+```
+$ yarn
+$ code .
+$ yarn start
+```
+
+When starting your project, the message may say that your app is listening on a different port number than the default Express.js port. Use the different port number when running https://localhost.
