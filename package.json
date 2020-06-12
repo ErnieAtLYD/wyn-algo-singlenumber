@@ -1,0 +1,28 @@
+{
+  "name": "jest-runner",
+  "version": "0.0.1",
+  "description": "A TDD JavaScript Sandbox on Glitch",
+  "main": "server.js",
+  "scripts": {
+    "start": "jest --ci --silent --json --outputFile=public/results.json || true && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "latest",
+    "jest-cli": "latest",
+    "jest-html-reporter": "latest"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "jest",
+    "tdd",
+    "glitch"
+  ]
+}
